@@ -3,10 +3,10 @@ requires-python = ">=3.9"
 resolution-markers = [
     "python_full_version < '3.11' and sys_platform == 'linux'",
     "python_full_version == '3.11.*' and sys_platform == 'linux'",
-    "python_full_version >= '3.12' and sys_platform == 'linux'",
+    "python_full_version >= '3.13' and sys_platform == 'linux'",
     "python_full_version < '3.11' and sys_platform == 'windows'",
     "python_full_version == '3.11.*' and sys_platform == 'windows'",
-    "python_full_version >= '3.12' and sys_platform == 'windows'",
+    "python_full_version >= '3.13' and sys_platform == 'windows'",
 ]
 supported-markers = [
     "sys_platform == 'linux'",
